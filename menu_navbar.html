@@ -1,0 +1,138 @@
+
+<style>
+  body{
+    min-height: 100vh;
+    background: #fff;
+    position: relative;
+    
+  }
+  .navbar{
+    z-index: 99999;
+    float: left;
+  }
+
+  .close-navbar-toggler{
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index:1;
+    cursor:pointer;
+  }
+  .close-navbar-toggler.collapsed{
+    z-index: -1;
+  }
+  </style>
+  
+  <!--div container -->
+  <div class="container-fluid border">
+
+    <!--Inventory Header -->
+    <div class="h4">
+      <div class="bg-info text-white col">
+        <img src="https://pbs.twimg.com/profile_images/1546939624756592641/PiagL-RA_400x400.jpg" width="40px" >
+        Inventory</div>
+    </div>
+
+    <!--To collapse the navbar when clicked outisde 
+    <a class="close-navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> </a>
+    -->
+    <!--Menu Navigation bar -->
+    <nav class="navbar py-0 bg-dark">
+      <span class="navbar-toggler navbar-dark">
+        <span>Menu</span>
+      </span>
+      <div class=" navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav bg-light">
+          <!--Dashboard -->
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              <img src="images/dashboard.png" width="20px">
+              Dashboard
+            </a>
+          </li>
+          <!--Calender -->
+          <li class="nav-item">
+            <a class="nav-link" href="calendar.html">
+              <img src="images/Calender.png" width="20px">
+              Calendar
+            </a>
+          </li>
+          <!--Purchasing -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="images/Purchasing.png" width="20px">
+              Purchasing
+            </a>
+            <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="vendor.html">Vendors</a>
+              <a class="dropdown-item" href="purchase_order.html">Purchase Orders</a>
+              <a class="dropdown-item" href="item_receipts.html">Item Receipts</a>
+              <a class="dropdown-item" href="reorder_list.html">Reorder List</a>
+            </div>
+          </li>
+          <!--Production -->
+          <li class="nav-item">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="images/Production.png" width="20px">
+              Production
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="builds.html">Builds</a>
+            </div>
+          </li> 
+          <!--Inventory -->
+          <li class="nav-item">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="images/Inventory.png" width="20px">
+              Inventory
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="items.html">Items</a>
+              <a class="dropdown-item" href="adjustments.html">Adjustments</a>
+            </div>
+          </li> 
+          <!--Sales -->
+          <li class="nav-item">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="images/Sales.png" width="20px">
+              Sales
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="customers.html">Customers</a>
+              <a class="dropdown-item" href="estimates.html">Estimates</a>
+              <a class="dropdown-item" href="sales_order.html">Sales Order</a>
+              <a class="dropdown-item" href="invoice.html">Invoices</a>
+              <a class="dropdown-item" href="sales_receipt.html">Sales Receipts</a>
+            </div>
+          </li>
+          <!--Fullfillment -->
+          <li class="nav-item">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="images/Fullfillment.png" width="20px">
+              Fullfillments
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="shipments.html">Shipments</a>
+            </div>
+          </li> 
+          <!--More Transactions -->
+          <li class="nav-item">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="images/MoreTransactions.png" width="20px">
+              More Transactions
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="returns.html">Returns</a>
+            </div>
+          </li> 
+          <!--Reports -->
+          <li class="nav-item">
+            <a class="nav-link" href="reports.html">
+              Reports
+            </a>
+          </li>      
+        </ul>
+      </div>  
+    </nav>
+    <br>
+ </div>
